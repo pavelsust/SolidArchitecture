@@ -1,10 +1,10 @@
-package com.example.solidarchitecture.common
+package com.example.solidarchitecture.presentation.viewmodel
 
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStoreOwner
 import com.example.solidarchitecture.data.api.ApiClientInterface
 import com.example.solidarchitecture.domain.repository.LoginRepository
-import com.example.solidarchitecture.domain.LoginUseCase
+import com.example.solidarchitecture.domain.usecase.LoginUseCase
 import com.example.solidarchitecture.viewmodel.LoginViewModel
 
 class ViewModelBuilder {

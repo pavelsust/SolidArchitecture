@@ -1,4 +1,4 @@
-package com.example.solidarchitecture.domain
+package com.example.solidarchitecture.domain.usecase
 
 import com.example.solidarchitecture.domain.entities.LoginResponse
 import com.example.solidarchitecture.domain.repository.ILoginRepository

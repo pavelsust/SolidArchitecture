@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.example.solidarchitecture.R
 import com.example.solidarchitecture.viewmodel.LoginViewModel
-import com.example.solidarchitecture.common.ViewModelBuilder
+import com.example.solidarchitecture.presentation.viewmodel.ViewModelBuilder
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
 import org.json.JSONException
