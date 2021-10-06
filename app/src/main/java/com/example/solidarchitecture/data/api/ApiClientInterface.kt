@@ -1,4 +1,4 @@
-package com.example.solidarchitecture.api
+package com.example.solidarchitecture.data.api
 
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.GsonBuilder
@@ -18,7 +18,7 @@ interface ApiClient{
 
 
 
-class ApiClientInterface : ApiClient{
+class ApiClientInterface : ApiClient {
 
     companion object{
         var retrofit: Retrofit?=null
@@ -30,7 +30,7 @@ class ApiClientInterface : ApiClient{
         }
 
         fun getClient(): Retrofit{
-            if (retrofit==null){
+            if (retrofit ==null){
                 retrofit = Retrofit.Builder()
                     .client(buildClient())
                     .addCallAdapterFactory(RxJava3CallAdapterFactory.create())

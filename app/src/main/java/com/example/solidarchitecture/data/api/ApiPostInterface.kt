@@ -1,9 +1,8 @@
-package com.example.solidarchitecture.api
+package com.example.solidarchitecture.data.api
 
-import com.example.solidarchitecture.pojo.LoginResponse
+import com.example.solidarchitecture.domain.entities.LoginResponse
 import com.google.gson.JsonObject
 import io.reactivex.rxjava3.core.Single
-import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.Headers
 import retrofit2.http.POST

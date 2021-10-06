@@ -1,4 +1,4 @@
-package com.example.solidarchitecture.pojo
+package com.example.solidarchitecture.domain.entities
 
 import com.google.gson.annotations.SerializedName
 

@@ -2,8 +2,8 @@ package com.example.solidarchitecture.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.solidarchitecture.domain.usercase.ILoginUseCase
-import com.example.solidarchitecture.pojo.LoginResponse
+import com.example.solidarchitecture.domain.ILoginUseCase
+import com.example.solidarchitecture.domain.entities.LoginResponse
 import com.google.gson.JsonObject
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.schedulers.Schedulers
